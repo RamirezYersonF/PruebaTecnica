@@ -1,7 +1,9 @@
 # Prueba tecnica
 - En este repositorio se presentan cuatro ejercicios resueltos mediante funciones en Python. A continuación, se describen ambos ejercicios y sus soluciones:
 ##Ejercicio 1: Función para calcular una serie repetida
+
 ### Ejercicio 1:  Función para calcular una serie repetida a partir de un número dado y una cantidad de términos
+
 - En este ejercicio, se proporciona una función llamada serie_repetida(numero, terminos) que calcula una serie repetida a partir de un número dado y una cantidad de términos especificada. La función toma dos argumentos: numero, que es el número inicial de la serie, y terminos, que es la cantidad de términos en la serie. La función devuelve la suma total de los términos de la serie.
 
         def serie_repetida(numero, terminos):
@@ -14,9 +16,12 @@
             suma_total += termino_actual  # Agregar el término actual a la suma total
 
         return suma_total  # Devolver la suma total de los términos de la serie
+
 ## Ejercicio 2: Función para filtrar números en una lista
 - En este ejercicio, se proporciona una función llamada filtrar_numeros(lista_entrada) que filtra una lista de entrada y devuelve una lista con números específicos que cumplen ciertas condiciones. La función toma una lista llamada lista_entrada como argumento y devuelve una lista llamada lista_salida que contiene los números filtrados.
+
 ### Función para filtrar números en una lista de entrada
+
 	def filtrar_numeros(lista_entrada):
 	lista_salida = []  # Se crea una lista vacía para almacenar los números 	 filtrados.
 
@@ -34,8 +39,10 @@
             lista_salida.append(num)
 
     return lista_salida  # Se devuelve la lista filtrada.
+
 ## Ejercicio 3:  Agrupar Elementos Similares en una Lista
 - En este repositorio se presenta una función en Python llamada agrupar_elementos_similares(lista) que tiene como objetivo agrupar elementos similares en una lista y devolver una lista de sublistas con los elementos agrupados. A continuación, se describe la función y se presentan ejemplos de uso:
+
 ### Función para agrupar elementos similares en una lista
 	def agrupar_elementos_similares(lista):
     diccionario = {}  # Se crea un diccionario vacío para almacenar los elementos similares.
@@ -53,6 +60,7 @@
     return lista_salida  # Se devuelve la lista con los elementos similares agrupados.
 ## Ejercicio 4: Inventario 
 ###El código proporcionado es una implementación básica de un sistema de inventario con diversas funciones para realizar diferentes acciones. A continuación, se comentará cada función y su propósito dentro del sistema
+
 ### Función para mostrar un reporte completo del inventario
 	def mostrar_reporte_inventario(inventario):
     # Encabezado del reporte
@@ -78,6 +86,7 @@
 
     # Mostrar el total de productos en el inventario completo
     print(f"Total de productos en el inventario: {total_productos}\n")
+	
 ### Función para mostrar los productos y existencias de un grupo específico
 	def mostrar_grupo(inventario, grupo):
     # Verificar si el grupo existe en el inventario
@@ -102,12 +111,15 @@
         # Mostrar un mensaje si el grupo no tiene productos registrados
         print("\n")
         print(f"No hay productos registrados en el grupo {grupo}.\n")
+
 ### Función para verificar si una cadena no está vacía
 	def es_str_no_vacio(cadena):
     return isinstance(cadena, str) and len(cadena.strip()) > 0
+
 ### Función para verificar si una cadena contiene solo letras (sin espacios)
 	def contiene_solo_letras(cadena):
     return all(caracter.isalpha() for caracter in cadena)
+
 ### Función para solicitar al usuario una cadena sin números y no vacía
 	def solicitar_cadena_sin_numeros(mensaje):
     while True:
@@ -122,6 +134,7 @@
             print(
                 "Error: No se aceptan valores numéricos ni caracteres especiales en este campo."
             )
+
 ### Función para solicitar y registrar los nombres y apellidos del usuario
 	def registrar_persona():
     nombres = solicitar_cadena_sin_numeros("Ingresa tus nombres: ")
@@ -130,6 +143,7 @@
     tituloRegistrarPersona = f"Bienvenido {nombres} {apellidos}"
     print(tituloRegistrarPersona)
     print("-" * len(tituloRegistrarPersona))
+
 ### Función para mostrar el menú de opciones
 	def mostrar_menu():
     tituloMostrarMenu = "Sistema de inventario. Ingrese una opción"
@@ -139,6 +153,7 @@
     print("2. Ver reporte de inventario")
     print("3. Mostrar productos por grupo")
     print("4. Salir")
+
 ### Función para registrar un producto en el inventario
 	def registrar_producto(inventario, grupo, producto, cantidad):
     if grupo in inventario:
@@ -154,6 +169,7 @@
     else:
         # Crear un nuevo grupo y agregar el producto con su cantidad
         inventario[grupo] = ([producto], [cantidad])
+
 #### Función para mostrar el inventario completo
 	def mostrar_inventario(inventario):
     print("Nombre".ljust(30) + "Existentes")
@@ -166,6 +182,7 @@
             print(f"{producto.ljust(30)}{cantidad}")
 
     print()  # Salto de línea al final del inventario
+
 ### Resultado del Ejercicio 4:
 ![](./img/capturaRegistro.png)
 
