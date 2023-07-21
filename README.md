@@ -6,7 +6,7 @@
 
 - En este ejercicio, se proporciona una función llamada serie_repetida(numero, terminos) que calcula una serie repetida a partir de un número dado y una cantidad de términos especificada. La función toma dos argumentos: numero, que es el número inicial de la serie, y terminos, que es la cantidad de términos en la serie. La función devuelve la suma total de los términos de la serie.
 
-    def serie_repetida(numero, terminos):
+        def serie_repetida(numero, terminos):
     
     	suma_total = 0  # Variable para almacenar la suma total de los términos 		de la serie
     termino_actual = 0  # Variable para mantener el término actual de la serie
