@@ -9,13 +9,13 @@
         def serie_repetida(numero, terminos):
     
     	suma_total = 0  # Variable para almacenar la suma total de los términos 		de la serie
-    termino_actual = 0  # Variable para mantener el término actual de la serie
+        termino_actual = 0  # Variable para mantener el término actual de la serie
 
-    for i in range(terminos):
-        termino_actual = termino_actual * 10 + numero  # Cálculo del término actual de la serie
-        suma_total += termino_actual  # Agregar el término actual a la suma total
+         for i in range(terminos):
+            termino_actual = termino_actual * 10 + numero  # Cálculo del término actual de la serie
+            suma_total += termino_actual  # Agregar el término actual a la suma total
 
-    return suma_total  # Devolver la suma total de los términos de la serie
+        return suma_total  # Devolver la suma total de los términos de la serie
 
 ## Ejercicio 2: Función para filtrar números en una lista
 - En este ejercicio, se proporciona una función llamada filtrar_numeros(lista_entrada) que filtra una lista de entrada y devuelve una lista con números específicos que cumplen ciertas condiciones. La función toma una lista llamada lista_entrada como argumento y devuelve una lista llamada lista_salida que contiene los números filtrados.
