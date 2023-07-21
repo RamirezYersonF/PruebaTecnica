@@ -2,10 +2,9 @@
 - En este repositorio se presentan cuatro ejercicios resueltos mediante funciones en Python. A continuación, se describen ambos ejercicios y sus soluciones:
 ##Ejercicio 1: Función para calcular una serie repetida
 
-- En este ejercicio, se proporciona una función llamada serie_repetida(numero, terminos) que calcula una serie repetida a partir de un número dado y una cantidad de términos especificada. La función toma dos argumentos: numero, que es el número inicial de la serie, y terminos, que es la cantidad de términos en la serie. La función devuelve la suma total de los términos de la serie.
-
 ### Ejercicio 1:  Función para calcular una serie repetida a partir de un número dado y una cantidad de términos
 
+- En este ejercicio, se proporciona una función llamada serie_repetida(numero, terminos) que calcula una serie repetida a partir de un número dado y una cantidad de términos especificada. La función toma dos argumentos: numero, que es el número inicial de la serie, y terminos, que es la cantidad de términos en la serie. La función devuelve la suma total de los términos de la serie.
 
 	def serie_repetida(numero, terminos):
     	suma_total = 0  # Variable para almacenar la suma total de los términos 		de la serie
