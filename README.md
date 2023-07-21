@@ -1,10 +1,10 @@
-#Prueba tecnica
+# Prueba tecnica
 - En este repositorio se presentan cuatro ejercicios resueltos mediante funciones en Python. A continuación, se describen ambos ejercicios y sus soluciones:
 ##Ejercicio 1: Función para calcular una serie repetida
 
 - En este ejercicio, se proporciona una función llamada serie_repetida(numero, terminos) que calcula una serie repetida a partir de un número dado y una cantidad de términos especificada. La función toma dos argumentos: numero, que es el número inicial de la serie, y terminos, que es la cantidad de términos en la serie. La función devuelve la suma total de los términos de la serie.
 
-### Función para calcular una serie repetida a partir de un número dado y una cantidad de términos
+### Ejercicio 1:  Función para calcular una serie repetida a partir de un número dado y una cantidad de términos
 
 
 	def serie_repetida(numero, terminos):
@@ -186,14 +186,20 @@
 
 ### Resultado del Ejercicio 4:
 ![](./img/capturaRegistro.png)
+
 ![](./img/captura2Lacteos.png)
+
 ![](./img/captura3Limpieza.png)
+
 ![](./img/captura4Cereales.png)
+
 ![](./img/captura5Otros.png)
+
 ![](./img/capturaGeneral.png)
+
 ![](./img/capturasalida.png)
 
 
-#Como se debe compilar
+# Como se debe compilar
 
 - Se manipula desde la consola y se realizo en el leguaje de programación de python.
