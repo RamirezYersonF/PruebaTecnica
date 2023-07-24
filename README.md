@@ -1,5 +1,5 @@
 # Prueba técnica Globaltek
-- En este repositorio se presentan cuatro ejercicios resueltos mediante funciones en Python. A continuación, se describen ambos ejercicios y sus soluciones:
+- En este repositorio se presentan cuatro ejercicios resueltos mediante funciones en Python. A continuación, se describen los ejercicios y sus soluciones:
 
 ### Ejercicio 1:  Función para calcular una serie repetida a partir de un número dado y una cantidad de términos
 
