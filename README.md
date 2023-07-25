@@ -58,7 +58,7 @@
 
     return lista_salida  # Se devuelve la lista con los elementos similares agrupados.
 ## Ejercicio 4: Inventario 
-###El código proporcionado es una implementación básica de un sistema de inventario con diversas funciones para realizar diferentes acciones. A continuación, se comentará cada función y su propósito dentro del sistema
+### El código proporcionado es una implementación básica de un sistema de inventario con diversas funciones para realizar diferentes acciones. A continuación, se comentará cada función y su propósito dentro del sistema
 
 ### Función para mostrar un reporte completo del inventario
 	def mostrar_reporte_inventario(inventario):
